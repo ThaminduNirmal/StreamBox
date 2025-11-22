@@ -41,3 +41,22 @@ app-example
 # generated native folders
 /ios
 /android
+# Ignore Cursor project settings
+.cursor
+
+# Ignore project instructions
+instructions.md
+
+# IDE folders
+.idea/
+.vscode/
+
+# EAS Build
+eas-build-*.tar.gz
+*.jks
+*.keystore
+
+# Environment variables
+.env
+.env.local
+.env.production
